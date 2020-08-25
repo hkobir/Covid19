@@ -1,0 +1,131 @@
+body{
+  font-family: 'Montserrat';
+  padding-top: 20px;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.countCard {
+  text-align: center;
+  padding: 20px 5px;
+  border-radius: 4px;
+  border: 0;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  background: #fff;
+  box-shadow: 0 4px 8px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+}
+.confirmed {
+  color: #1FBFA9;
+  border-bottom: 7px solid #1FBFA9;
+}
+
+.recovered {
+  color: #e1ab0a;
+  border-bottom: 7px solid #e1ab0a;
+}
+.deaths {
+  color: #f11771;
+  border-bottom: 7px solid #f11771;
+}
+.tested {
+  color: #000000;
+  border-bottom: 7px solid #000000;
+}
+#last_update{
+  text-align: center;
+  color: #FF3D00;
+}
+.world_update{
+  font-size: 14px;
+  color: darkgreen;
+  background-color: #D4EDDA;
+  padding: 5px;
+  text-align: left;
+  border-radius: 4px;
+}
+#world_report{
+  text-align: center;
+  padding: 20px 5px;
+  border-radius: 4px;
+  border: 0;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  background: #fff;
+  box-shadow: 0 4px 8px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 4px solid #E2E3E5;
+  font-size: 14px;
+  border-bottom: 4px solid orange;
+}
+
+#wconfirmed{
+  color: #ffffff;
+  padding: 3.5px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #1FBFA9;
+}
+#wrecovered{
+  background-color: #4CAF50;
+  padding: 3.5px;
+  color: #ffffff;
+  border-radius:4px;
+  font-size: 16px;
+}
+#wdeaths{
+  color: #ffffff;
+  padding: 3.5px;
+  border-radius:4px;
+  background-color: #f11771;
+  font-size: 16px;
+}
+#wsource{
+  font-style: italic;
+  font-size: 8px;
+}
+#logo{
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+#logo a:hover{
+  text-decoration: none;
+}
+
+#progress{
+  margin-top: 15px;
+  background: white;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+
+}
+#separator{
+  margin-top: -8px;
+  border: 0.6px dashed #dee2e6;
+}
+#world_report{
+  margin-top: 30px;
+}
+#disticts{
+  margin-top: 30px;
+}
+
+/*horizontal center a div*/
+#piechart{
+  width:400px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+  top: 20px;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+}
+@media (min-width: 576px)
+  .container, .container-sm {
+    max-width: 540px;
+}
